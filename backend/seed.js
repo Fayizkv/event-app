@@ -16,14 +16,14 @@ const seedData = async () => {
     const mandalams = [
       'അങ്കമാലി', 'ആലുവ', 'കളമശ്ശേരി', 'പറവൂർ', 
       'വൈപ്പിൻ', 'കൊച്ചി', 'തൃപ്പൂണിത്തുറ', 'എറണാകുളം', 
-      'തൃക്കാക്കര', 'കുന്നത്തുനാട്', 'പിറവം', 'മൂവാറ്റുപുഴ'
+      'തൃക്കാക്കര', 'കുന്നത്തുനാട്', 'പിറവം', 'മൂവാറ്റുപുഴ', 'കോതമംഗലം', 'പെരുമ്പാവൂർ'
     ];
 
     const mandalamsData = mandalams.map(m => {
       const unameMap = {
         'അങ്കമാലി': 'angamaly', 'ആലുവ': 'aluva', 'കളമശ്ശേരി': 'kalamassery', 'പറവൂർ': 'paravur', 
         'വൈപ്പിൻ': 'vypin', 'കൊച്ചി': 'kochi', 'തൃപ്പൂണിത്തുറ': 'thrippunithura', 'എറണാകുളം': 'ernakulam', 
-        'തൃക്കാക്കര': 'thrikkakara', 'കുന്നത്തുനാട്': 'kunnathunad', 'പിറവം': 'piravom', 'മൂവാറ്റുപുഴ': 'muvattupuzha'
+        'തൃക്കാക്കര': 'thrikkakara', 'കുന്നത്തുനാട്': 'kunnathunad', 'പിറവം': 'piravom', 'മൂവാറ്റുപുഴ': 'muvattupuzha', 'കോതമംഗലം': 'kothamangalam', 'പെരുമ്പാവൂർ': 'perumbavoor'
       };
       
       const englishName = unameMap[m];
