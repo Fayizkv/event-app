@@ -142,11 +142,11 @@ const RegistrationModal = ({ event, onClose, onSuccess }) => {
                   />
                 </div>
               ))}
-              {participants.length < 2 && (
+              {/* {participants.length < 2 && (
                 <button type="button" className="btn btn-secondary" style={{ fontSize: '0.8rem', padding: '0.5rem 1rem', marginTop: '0.5rem' }} onClick={handleAddParticipant}>
                   + Add 2nd Participant
                 </button>
-              )}
+              )} */}
             </div>
           )}
 
